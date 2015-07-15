@@ -19,19 +19,18 @@ section {
 
 .row {
 	width: 100%;
-	margin-bottom: 20px;
+	margin: 0 0 20px 0;
 	display: flex;
 }
 
 .logo {
 	width: 100px;
-	margin-top: 20px;
-	margin-left: 20px;
+	margin: 20px 0 0 40px;
 }
 
 .title {
 	text-align: right;
-	margin-right: 24px;
+	margin: 20px 40px 0 0;
 }
 
 h1 {
@@ -126,7 +125,18 @@ footer {
 		flex-wrap: wrap;	
 	}
 	
-	.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+	.col-1,
+	.col-2,
+	.col-3,
+	.col-4,
+	.col-5,
+	.col-6,
+	.col-7,
+	.col-8,
+	.col-9,
+	.col-10,
+	.col-11,
+	.col-12 {
 		width: 100%;
 	}
 	
@@ -141,6 +151,6 @@ footer {
 	}
 	
 	.div-interest {
-		margin-top: 20px;	
+		margin: 20px 0 0 0;	
 	}
 }
